@@ -6,7 +6,7 @@ The analysis focuses on listing views rather than applications because the sourc
 
 ## Research Question
 
-**What factors influence how many views a job listing receives?**
+### What factors influence how many views a job listing receives?
 
 ## Project Overview
 
@@ -27,6 +27,10 @@ The project is written as a Jupyter Notebook and uses Python for data cleaning, 
 - Salary alone does not show a strong direct relationship with listing views.
 - Certain job titles receive unusually high average views.
 - Experience level has a weaker and less consistent relationship with view count.
+
+## Conclusion
+
+Overall, the project shows that job listing visibility is influenced more by practical and role-related factors such as location, remote work options, and job title, rather than salary or experience level alone.
 
 ## Repository Structure
 
@@ -49,8 +53,7 @@ datasets/postings2.csv
 datasets/postings3.csv
 datasets/postings4.csv
 ```
-
-These files are not included in the repository. Add them locally before running the notebook.
+These datasets are merged using job_id to create one combined dataset for analysis.
 
 ## Methods
 
@@ -112,6 +115,16 @@ jupyter notebook job-listings-analysis.ipynb
 - numpy
 - matplotlib
 - jupyter
+
+## Possible Improvements
+
+Future improvements could include:
+
+Removing or handling more outliers in views and salary data
+Using correlation analysis to measure relationships more clearly
+Adding more visualisations for company name or industry
+Building a simple prediction model to estimate job listing views
+Improving the analysis with more recent job posting data
 
 ## Notes
 
